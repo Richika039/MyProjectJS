@@ -109,7 +109,7 @@
                   }
               
               </script>
-        <h1 class="neon-title">Section E-Business</h1>
+          <h1 class="neon-title">Section E-Business</h1>
     </div>
 
   <div class="Projet" style="display: flex; flex-wrap: wrap; gap: 20px;">
@@ -133,13 +133,110 @@
     </ul>
 
     <h2>Découvre le programme par année :</h2>
-    <div style="display: flex; gap: 10px; margin-bottom: 20px;">
-      <button onclick="afficheBloc(1)">Bloc 1</button>
-      <button onclick="afficheBloc(2)">Bloc 2</button>
-      <button onclick="afficheBloc(3)">Bloc 3</button>
-    </div>
 
-    <div id="contenuBloc" style="background-color: #f5f5f5; padding: 15px; border-radius: 10px;"></div>
+  <h1>Programme BAC - E-Business</h1>
+
+  <div class="menu">
+    <button onclick="afficherBloc('bloc1')">Bloc 1</button>
+    <button onclick="afficherBloc('bloc2')">Bloc 2</button>
+    <button onclick="afficherBloc('bloc3')">Bloc 3</button>
+  </div>
+
+  <!-- Bloc 1 -->
+  <div id="bloc1" class="bloc">
+    <h2>Bloc 1 : Enseignement obligatoire</h2>
+    <table>
+      <tr><th>Unité</th><th>Périodes</th><th>Crédits</th></tr>
+      <tr><td>GESTION DES DONNÉES NUMÉRIQUES 1.1</td><td>Q1</td><td>2</td></tr>
+      <tr><td>ANGLAIS 1.1</td><td>Q1</td><td>4</td></tr>
+      <tr><td>CRÉATION DE SITES WEB 1.1</td><td>Q1</td><td>6</td></tr>
+      <tr><td>LOGICIEL INTÉGRÉ D'E-GESTION 1.1</td><td>Q1</td><td>4</td></tr>
+      <tr><td>COMPTABILITÉ 1.1</td><td>Q1</td><td>3</td></tr>
+      <tr><td>MARKETING 1.1</td><td>Q1</td><td>3</td></tr>
+      <tr><td>E-LOGISTIQUE 1.1</td><td>Q1</td><td>3</td></tr>
+      <tr><td>ÉCONOMIE 1.1</td><td>Q1</td><td>2</td></tr>
+      <tr><td>STATISTIQUES 1.1</td><td>Q1</td><td>3</td></tr>
+      <tr><td>PROGRAMMATION 1.2</td><td>Q2</td><td>6</td></tr>
+      <tr><td>FONDEMENT DU DROIT 1.2</td><td>Q2</td><td>4</td></tr>
+      <tr><td>ANGLAIS 1.2</td><td>Q2</td><td>4</td></tr>
+      <tr><td>APPLICATIONS BUREAUTIQUES 1.2</td><td>Q2</td><td>2</td></tr>
+      <tr><td>MATHÉMATIQUES 1.2</td><td>Q2</td><td>2</td></tr>
+      <tr><td>COMMUNICATION NUMÉRIQUE 1.2</td><td>Q2</td><td>5</td></tr>
+      <tr><td>SEARCH ENGINE MARKETING 1.2</td><td>Q2</td><td>3</td></tr>
+      <tr><td>INFOGRAPHIE 1.2</td><td>Q2</td><td>4</td></tr>
+      <tfoot>
+        <tr><td colspan="2">Total crédits</td><td>60</td></tr>
+      </tfoot>
+    </table>
+  </div>
+
+  <!-- Bloc 2 -->
+  <div id="bloc2" class="bloc">
+    <h2>Bloc 2 : Enseignement obligatoire</h2>
+    <table>
+      <tr><th>Unité</th><th>Périodes</th><th>Crédits</th></tr>
+      <tr><td>ANGLAIS 2.1</td><td>Q1</td><td>2</td></tr>
+      <tr><td>PROGRAMMATION 2.1</td><td>Q1</td><td>3</td></tr>
+      <tr><td>E-LOGISTIQUE 2.1</td><td>Q1</td><td>3</td></tr>
+      <tr><td>CRÉATION DE SITES WEB 2.1</td><td>Q1</td><td>3</td></tr>
+      <tr><td>STATISTIQUES 2.1</td><td>Q1</td><td>2</td></tr>
+      <tr><td>LOGICIEL INTÉGRÉ D'E-GESTION 2.1</td><td>Q1</td><td>4</td></tr>
+      <tr><td>BUSINESS COACHING 2.1</td><td>Q1</td><td>2</td></tr>
+      <tr><td>MARKETING NUMÉRIQUE ET GESTION DE COMMUNAUTÉ 2.1</td><td>Q1</td><td>8</td></tr>
+      <tr><td>DROIT DES AFFAIRES 2.1</td><td>Q1</td><td>1</td></tr>
+      <tr><td>DROIT FISCAL 2.1</td><td>Q1</td><td>1</td></tr>
+      <tr><td>DROIT SOCIAL 2.1</td><td>Q1</td><td>1</td></tr>
+      <tr><td>ANGLAIS 2.2</td><td>Q2</td><td>2</td></tr>
+      <tr><td>SÉMINAIRES 2.2</td><td>Q2</td><td>3</td></tr>
+      <tr><td>BASE DE DONNÉES 2.2</td><td>Q2</td><td>3</td></tr>
+      <tr><td>SOFTWARE DEVELOPMENT 2.2</td><td>Q2</td><td>4</td></tr>
+      <tr><td>AUDIT DES SITES WEB 2.2</td><td>Q2</td><td>3</td></tr>
+      <tr><td>ARCHITECTURE WEB 2.2</td><td>Q2</td><td>3</td></tr>
+      <tr><td>E-COMMERCE - ANALYSE DE LA STRATÉGIE 2.2</td><td>Q2</td><td>3</td></tr>
+      <tr><td>E-COMMERCE - DÉVELOPPEMENT WEB 2.2</td><td>Q2</td><td>2</td></tr>
+      <tr><td>E-DROIT 2.2</td><td>Q2</td><td>4</td></tr>
+      <tr><td>E-LOGISTIQUE 2.2</td><td>Q2</td><td>2</td></tr>
+      <tr><td>MÉTHODOLOGIE 2.2</td><td>Q2</td><td>1</td></tr>
+      <tfoot>
+        <tr><td colspan="2">Total crédits</td><td>60</td></tr>
+      </tfoot>
+    </table>
+  </div>
+
+  <!-- Bloc 3 -->
+  <div id="bloc3" class="bloc">
+    <h2>Bloc 3 : Enseignement obligatoire</h2>
+    <table>
+      <tr><th>Unité</th><th>Périodes</th><th>Crédits</th></tr>
+      <tr><td>E-MARKETING : ÉTUDE DE MARCHÉ 3.1</td><td>Q1</td><td>3</td></tr>
+      <tr><td>ANGLAIS 3.1</td><td>Q1</td><td>2</td></tr>
+      <tr><td>DROIT INTERNATIONAL DES AFFAIRES 3.1</td><td>Q1</td><td>2</td></tr>
+      <tr><td>LOGICIEL INTÉGRÉ D'E-GESTION 3.1</td><td>Q1</td><td>4</td></tr>
+      <tr><td>E-PROJECT MANAGEMENT 3.1</td><td>Q1</td><td>5</td></tr>
+      <tr><td>E-FISCALITÉ 3.1</td><td>Q1</td><td>1</td></tr>
+      <tr><td>E-LOGISTICS : SOFTWARE INTEGRATION 3.1</td><td>Q1</td><td>2</td></tr>
+      <tr><td>UX DESIGN 3.1</td><td>Q1</td><td>2</td></tr>
+      <tr><td>CRÉATION DE SITES WEB 3.1</td><td>Q1</td><td>5</td></tr>
+      <tr><td>ASPECTS JURIDIQUES DE LA CRÉATION WEB 3.1</td><td>Q1</td><td>3</td></tr>
+      <tr><td>E-LOGISTIQUE 3.1</td><td>Q1</td><td>1</td></tr>
+      <tr><td>STAGE 3.2</td><td>A</td><td>15</td></tr>
+      <tr><td>TRAVAIL DE FIN D'ÉTUDES 3.2</td><td>A</td><td>15</td></tr>
+      <tfoot>
+        <tr><td colspan="2">Total crédits</td><td>60</td></tr>
+      </tfoot>
+    </table>
+  </div>
+
+  <script>
+    function afficherBloc(id) {
+      let blocs = document.querySelectorAll('.bloc');
+      blocs.forEach(bloc => bloc.style.display = 'none');
+      document.getElementById(id).style.display = 'block';
+    }
+  </script>
+  </section>
+  </div>
+   
 
     <h2 style="margin-top: 40px;">Quels métiers après cette formation ?</h2>
     <p>
@@ -157,126 +254,14 @@
     </p>
   </aside>
 </div>
-
-<script>
-  function afficheBloc(numero) {
-    const contenu = document.getElementById("contenuBloc");
-    let html = "";
-
-    if (numero === 1) {
-      html = `
-        <h3>BAC 1 : Enseignement obligatoire</h3>
-        <table>
-          <thead>
-            <tr><th>Unité</th><th>Périodes</th><th>Crédits</th></tr>
-          </thead>
-          <tbody>
-            <tr><td>GESTION DES DONNÉES NUMÉRIQUES 1.1</td><td>Q1</td><td>2</td></tr>
-            <tr><td>ANGLAIS 1.1</td><td>Q1</td><td>4</td></tr>
-            <tr><td>CRÉATION DE SITES WEB 1.1</td><td>Q1</td><td>6</td></tr>
-            <tr><td>LOGICIEL INTÉGRÉ D'E-GESTION 1.1</td><td>Q1</td><td>4</td></tr>
-            <tr><td>COMPTABILITÉ 1.1</td><td>Q1</td><td>3</td></tr>
-            <tr><td>MARKETING 1.1</td><td>Q1</td><td>3</td></tr>
-            <tr><td>E-LOGISTIQUE 1.1</td><td>Q1</td><td>3</td></tr>
-            <tr><td>ÉCONOMIE 1.1</td><td>Q1</td><td>2</td></tr>
-            <tr><td>STATISTIQUES 1.1</td><td>Q1</td><td>3</td></tr>
-            <tr><td>PROGRAMMATION 1.2</td><td>Q2</td><td>6</td></tr>
-            <tr><td>FONDEMENT DU DROIT 1.2</td><td>Q2</td><td>4</td></tr>
-            <tr><td>ANGLAIS 1.2</td><td>Q2</td><td>4</td></tr>
-            <tr><td>APPLICATIONS BUREAUTIQUES 1.2</td><td>Q2</td><td>2</td></tr>
-            <tr><td>MATHÉMATIQUES 1.2</td><td>Q2</td><td>2</td></tr>
-            <tr><td>COMMUNICATION NUMÉRIQUE 1.2</td><td>Q2</td><td>5</td></tr>
-            <tr><td>SEARCH ENGINE MARKETING 1.2</td><td>Q2</td><td>3</td></tr>
-            <tr><td>INFOGRAPHIE 1.2</td><td>Q2</td><td>4</td></tr>
-          </tbody>
-        </table>
-        <p><strong>Total crédits :</strong> 60</p>`;
-    } else if (numero === 2) {
-      html = `
-        <h3>BAC 2 : Enseignement obligatoire</h3>
-        <table>
-          <thead>
-            <tr><th>Unité</th><th>Périodes</th><th>Crédits</th></tr>
-          </thead>
-          <tbody>
-            <tr><td>ANGLAIS 2.1</td><td>Q1</td><td>2</td></tr>
-            <tr><td>PROGRAMMATION 2.1</td><td>Q1</td><td>3</td></tr>
-            <tr><td>E-LOGISTIQUE 2.1</td><td>Q1</td><td>3</td></tr>
-            <tr><td>CRÉATION DE SITES WEB 2.1</td><td>Q1</td><td>3</td></tr>
-            <tr><td>STATISTIQUES 2.1</td><td>Q1</td><td>2</td></tr>
-            <tr><td>LOGICIEL INTÉGRÉ D'E-GESTION 2.1</td><td>Q1</td><td>4</td></tr>
-            <tr><td>BUSINESS COACHING 2.1</td><td>Q1</td><td>2</td></tr>
-            <tr><td>MARKETING NUMÉRIQUE ET GESTION DE COMMUNAUTÉ 2.1</td><td>Q1</td><td>8</td></tr>
-            <tr><td>DROIT DES AFFAIRES 2.1</td><td>Q1</td><td>1</td></tr>
-            <tr><td>DROIT FISCAL 2.1</td><td>Q1</td><td>1</td></tr>
-            <tr><td>DROIT SOCIAL 2.1</td><td>Q1</td><td>1</td></tr>
-            <tr><td>ANGLAIS 2.2</td><td>Q2</td><td>2</td></tr>
-            <tr><td>SÉMINAIRES 2.2</td><td>Q2</td><td>3</td></tr>
-            <tr><td>BASE DE DONNÉES 2.2</td><td>Q2</td><td>3</td></tr>
-            <tr><td>SOFTWARE DEVELOPMENT 2.2</td><td>Q2</td><td>4</td></tr>
-            <tr><td>AUDIT DES SITES WEB 2.2</td><td>Q2</td><td>3</td></tr>
-            <tr><td>ARCHITECTURE WEB 2.2</td><td>Q2</td><td>3</td></tr>
-            <tr><td>E-COMMERCE - ANALYSE DE LA STRATÉGIE 2.2</td><td>Q2</td><td>3</td></tr>
-            <tr><td>E-COMMERCE - DÉVELOPPEMENT WEB 2.2</td><td>Q2</td><td>2</td></tr>
-            <tr><td>E-DROIT 2.2</td><td>Q2</td><td>4</td></tr>
-            <tr><td>E-LOGISTIQUE 2.2</td><td>Q2</td><td>2</td></tr>
-            <tr><td>MÉTHODOLOGIE 2.2</td><td>Q2</td><td>1</td></tr>
-          </tbody>
-        </table>
-        <p><strong>Total crédits :</strong> 60</p>`;
-    } else if (numero === 3) {
-      html = `
-        <h3>BAC 3 : Enseignement obligatoire</h3>
-        <table>
-          <thead>
-            <tr><th>Unité</th><th>Périodes</th><th>Crédits</th></tr>
-          </thead>
-          <tbody>
-            <tr><td>E-MARKETING : ÉTUDE DE MARCHÉ 3.1</td><td>Q1</td><td>3</td></tr>
-            <tr><td>ANGLAIS 3.1</td><td>Q1</td><td>2</td></tr>
-            <tr><td>DROIT INTERNATIONAL DES AFFAIRES 3.1</td><td>Q1</td><td>2</td></tr>
-            <tr><td>LOGICIEL INTÉGRÉ D'E-GESTION 3.1</td><td>Q1</td><td>4</td></tr>
-            <tr><td>E-PROJECT MANAGEMENT 3.1</td><td>Q1</td><td>5</td></tr>
-            <tr><td>E-FISCALITÉ 3.1</td><td>Q1</td><td>1</td></tr>
-            <tr><td>E-LOGISTICS : SOFTWARE INTEGRATION 3.1</td><td>Q1</td><td>2</td></tr>
-            <tr><td>UX DESIGN 3.1</td><td>Q1</td><td>2</td></tr>
-            <tr><td>CRÉATION DE SITES WEB 3.1</td><td>Q1</td><td>5</td></tr>
-            <tr><td>ASPECTS JURIDIQUES DE LA CRÉATION WEB 3.1</td><td>Q1</td><td>3</td></tr>
-            <tr><td>E-LOGISTIQUE 3.1</td><td>Q1</td><td>1</td></tr>
-            <tr><td>STAGE 3.2</td><td>A</td><td>15</td></tr>
-            <tr><td>TRAVAIL DE FIN D'ÉTUDES 3.2</td><td>A</td><td>15</td></tr>
-          </tbody>
-        </table>
-        <p><strong>Total crédits :</strong> 60</p>`;
-    }
-    contenu.innerHTML = html;
-  }
-
-  function setActiveTab(num) {
-    // On met à jour les onglets
-    for (let i = 1; i <= 3; i++) {
-      const tab = document.getElementById(`tab${i}`);
-      if (i === num) {
-        tab.classList.add("active");
-      } else {
-        tab.classList.remove("active");
-      }
-    }
-    // Affiche contenu lié
-    afficheBloc(num);
-  }
-
-  // Affiche par défaut le BAC 1 au chargement
-  afficheBloc(1);
-</script>
-
-
-
-
-
    <footer> 
         
       </footer>
+
+
+        
+  </body>
+</html>
 
 
         
